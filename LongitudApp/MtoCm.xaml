@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LongitudApp.MtoCm"
+             Title="MtoCm">
+    <VerticalStackLayout>
+        <Entry x:Name="Metros"
+             />
+
+        <Entry x:Name="Centimetros"
+             IsReadOnly="True"/>
+
+        <Button Text="Calcular Centimetros"
+      VerticalOptions="Center"
+      HorizontalOptions="Center"
+      />
+    </VerticalStackLayout>
+</ContentPage>
